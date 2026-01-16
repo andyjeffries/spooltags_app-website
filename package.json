@@ -4,9 +4,9 @@
   "description": "SpoolTags marketing website",
   "scripts": {
     "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
-    "watch:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "dev:css": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "build": "npm run build:css && cp src/index.html src/privacy.html dist/ && cp src/CNAME dist/ 2>/dev/null || true && cp -r src/images dist/ 2>/dev/null || true",
-    "dev": "npm run watch:css"
+    "dev": "echo 'Run in two terminals: npm run dev:css AND npx live-server src'"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1"

@@ -40,8 +40,19 @@ This is the marketing website for SpoolTags, built with Tailwind CSS and deploye
 
 ```bash
 npm install
-npm run dev      # Watch CSS changes
-npm run build    # Build for production
+overmind start   # Runs CSS watcher + live-server via Procfile
+```
+
+Or run manually in two terminals:
+```bash
+npm run dev:css        # Terminal 1: Watch CSS changes
+npx live-server src    # Terminal 2: Serve with live reload
+```
+
+### Production build
+
+```bash
+npm run build    # Build minified CSS and copy assets to dist/
 ```
 
 ### Deployment
