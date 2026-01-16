@@ -1,0 +1,14 @@
+{
+  "name": "spooltags-website",
+  "version": "1.0.0",
+  "description": "SpoolTags marketing website",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npm run build:css && cp src/index.html dist/ && cp src/CNAME dist/ 2>/dev/null || true && cp -r src/images dist/ 2>/dev/null || true",
+    "dev": "npm run watch:css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
