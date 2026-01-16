@@ -31,7 +31,10 @@ jobs:
         run: npm ci
 
       - name: Build CSS and copy files
-        run: npm run build
+        run: |
+          mkdir -p dist
+          npm run build
+          ls -la dist/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
