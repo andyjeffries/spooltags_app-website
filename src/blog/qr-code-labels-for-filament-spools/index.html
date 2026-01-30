@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Labels for Filament Spools: A Complete Guide - SpoolTags</title>
+  <meta name="description" content="Learn how to use QR codes to instantly identify and track your 3D printer filament spools with a quick scan.">
+  <meta name="keywords" content="QR code filament, filament labels, spool QR code, 3D printer filament QR, filament tracking QR">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="QR Code Labels for Filament Spools: A Complete Guide">
+  <meta property="og:description" content="Learn how to use QR codes to instantly identify and track your filament spools with a quick scan.">
+  <meta property="og:type" content="article">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link href="/output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-lg border-b border-slate-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="/" class="flex items-center gap-2">
+          <img src="/images/logo.svg" alt="SpoolTags logo" class="w-8 h-8 rounded-lg">
+          <span class="font-bold text-xl text-slate-900">SpoolTags</span>
+        </a>
+        <div class="hidden sm:flex items-center gap-8">
+          <a href="/#features" class="text-sm font-medium text-slate-600 hover:text-primary-600 transition-colors">Features</a>
+          <a href="/#how-it-works" class="text-sm font-medium text-slate-600 hover:text-primary-600 transition-colors">How It Works</a>
+          <a href="/#pricing" class="text-sm font-medium text-slate-600 hover:text-primary-600 transition-colors">Pricing</a>
+          <a href="/blog/" class="text-sm font-medium text-slate-600 hover:text-primary-600 transition-colors">Blog</a>
+          <a href="/#download" class="btn-primary text-sm !px-4 !py-2">Download</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Article -->
+  <article class="pt-32 pb-20">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Header -->
+      <header class="mb-12">
+        <a href="/blog/" class="inline-flex items-center text-sm text-primary-600 hover:text-primary-700 mb-6">
+          <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+          </svg>
+          Back to Blog
+        </a>
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight">QR Code Labels for Filament Spools: A Complete Guide</h1>
+        <div class="flex items-center gap-2 text-sm text-slate-500 mt-4">
+          <span>Tutorial</span>
+          <span>&middot;</span>
+          <span>5 min read</span>
+        </div>
+      </header>
+
+      <!-- Content -->
+      <div class="prose prose-slate prose-lg max-w-none">
+        <p class="lead">
+          QR codes aren't just for restaurant menus anymore. For 3D printing enthusiasts, they're a simple way to instantly identify any spool in your collection. Point your phone, scan, and see exactly what material it is and how much is left.
+        </p>
+
+        <h2>Why QR Codes for Filament?</h2>
+
+        <p>
+          When you have more than a handful of spools, identification becomes a problem. Is that white spool PLA or PETG? Is it the matte or the silk finish? Which brand is it?
+        </p>
+
+        <p>
+          Handwritten labels help, but they're hard to read, fade over time, and can't tell you how much filament is left. QR codes solve this by linking to a digital record that can store all the details and stay updated.
+        </p>
+
+        <p>
+          Benefits of QR code labels:
+        </p>
+
+        <ul>
+          <li><strong>Instant identification</strong> &mdash; Scan and see all spool details immediately</li>
+          <li><strong>No memorization</strong> &mdash; The code links to a complete record</li>
+          <li><strong>Easy to create</strong> &mdash; Print on any printer with regular paper or label sheets</li>
+          <li><strong>Universal</strong> &mdash; Works with any phone camera, no special hardware needed</li>
+          <li><strong>Permanent</strong> &mdash; Unlike handwriting, QR codes don't fade or smudge</li>
+        </ul>
+
+        <h2>What the QR Code Should Link To</h2>
+
+        <p>
+          A QR code is just an encoded piece of information. The question is: what should it encode?
+        </p>
+
+        <h3>Option 1: Static Information</h3>
+        <p>
+          The simplest approach encodes the spool details directly in the QR code: "Polymaker PLA Pro, Black, 1kg". Scanning shows this text.
+        </p>
+        <p>
+          <strong>Pros:</strong> Works offline, no app needed<br>
+          <strong>Cons:</strong> Can't update the information (like remaining weight), limited space for data
+        </p>
+
+        <h3>Option 2: Link to a Spreadsheet or Database</h3>
+        <p>
+          The QR code contains a unique ID that links to a row in your spreadsheet or database. Scanning looks up that ID and shows the current data.
+        </p>
+        <p>
+          <strong>Pros:</strong> Data can be updated, more information available<br>
+          <strong>Cons:</strong> Requires internet connection, more setup work
+        </p>
+
+        <h3>Option 3: Link to a Tracking App</h3>
+        <p>
+          The QR code contains an ID that a dedicated app recognizes. Scanning opens the app directly to that spool's record, where you can view and update information.
+        </p>
+        <p>
+          <strong>Pros:</strong> Best user experience, quick updates, syncs across devices<br>
+          <strong>Cons:</strong> Requires an app
+        </p>
+
+        <h2>Creating QR Code Labels</h2>
+
+        <p>
+          Here's how to create QR code labels for your spools:
+        </p>
+
+        <h3>Method 1: Generate Individual Codes</h3>
+        <p>
+          Use a free QR code generator (search "QR code generator") to create codes one at a time. Enter your text or URL, download the image, paste into a document, print.
+        </p>
+        <p>
+          This works but gets tedious with many spools.
+        </p>
+
+        <h3>Method 2: Batch Generation</h3>
+        <p>
+          For larger collections, use a tool that generates multiple QR codes at once. You can input a list of unique IDs and get a sheet of codes ready to print.
+        </p>
+
+        <h3>Method 3: Use an App with Built-in Label Printing</h3>
+        <p>
+          Some filament tracking apps can generate printable label sheets directly. This is the easiest approach since the QR codes are automatically linked to your spool database.
+        </p>
+
+        <h2>Printing Your Labels</h2>
+
+        <h3>Paper Options</h3>
+        <ul>
+          <li><strong>Regular paper + tape</strong> &mdash; Print on standard paper, cut out, tape to spool. Free but less durable.</li>
+          <li><strong>Adhesive label sheets</strong> &mdash; Print on Avery-style labels. Stick directly to spools. More professional, stays put.</li>
+          <li><strong>Weatherproof labels</strong> &mdash; For spools stored in humid conditions or handled frequently. More durable but more expensive.</li>
+        </ul>
+
+        <h3>Label Size</h3>
+        <p>
+          QR codes need to be large enough to scan reliably. Generally:
+        </p>
+        <ul>
+          <li><strong>Minimum:</strong> ~15mm (0.6") square</li>
+          <li><strong>Recommended:</strong> 20-25mm (0.8-1") square</li>
+          <li><strong>With text:</strong> Add space below for human-readable info (color name, material)</li>
+        </ul>
+
+        <h3>Where to Place Labels</h3>
+        <p>
+          Common placements:
+        </p>
+        <ul>
+          <li><strong>Spool side</strong> &mdash; Easy to scan when spool is on shelf</li>
+          <li><strong>Spool hub</strong> &mdash; Visible when spool is mounted on printer</li>
+          <li><strong>Storage bag</strong> &mdash; If you keep spools in resealable bags</li>
+          <li><strong>Shelf edge</strong> &mdash; For visible inventory at a glance</li>
+        </ul>
+
+        <h2>Tips for Success</h2>
+
+        <ul>
+          <li><strong>Test before bulk printing.</strong> Print one label, make sure it scans reliably from different angles and distances.</li>
+          <li><strong>Use high contrast.</strong> Black QR codes on white background work best. Avoid colored backgrounds that reduce contrast.</li>
+          <li><strong>Include human-readable text.</strong> Add the color name or material below the QR code as a backup. Useful when your phone isn't handy.</li>
+          <li><strong>Assign codes before labeling spools.</strong> Generate a batch of QR codes, print them, then apply to spools one at a time while creating the digital records. This prevents orphaned codes.</li>
+          <li><strong>Label new spools immediately.</strong> Make it a habit: new spool arrives, label goes on before it goes on the shelf.</li>
+        </ul>
+
+        <h2>QR Codes vs. Other Methods</h2>
+
+        <p>
+          How do QR codes compare to alternatives?
+        </p>
+
+        <p>
+          <strong>vs. Handwritten labels:</strong> QR codes link to updateable digital records. Handwritten labels are static and hard to read.
+        </p>
+
+        <p>
+          <strong>vs. NFC tags:</strong> QR codes are cheaper (basically free to print), work with any phone camera, and don't require special tags. NFC is faster to scan (just tap) but requires buying NFC tags and only works with NFC-capable phones.
+        </p>
+
+        <p>
+          <strong>vs. No labels:</strong> Any labeling system beats trying to remember which spool is which.
+        </p>
+
+        <p>
+          Many people use QR codes for most spools and NFC tags for frequently-used spools where the faster tap-to-scan is worth the extra cost.
+        </p>
+
+        <h2>Getting Started</h2>
+
+        <p>
+          You don't need to label every spool at once. Start with your most-used materials:
+        </p>
+
+        <ol>
+          <li>Generate 10-20 QR code labels</li>
+          <li>Print on regular paper or adhesive labels</li>
+          <li>Apply to your most frequently used spools</li>
+          <li>Create the digital records (in your chosen app or spreadsheet)</li>
+          <li>Get in the habit of scanning when you grab a spool</li>
+        </ol>
+
+        <p>
+          Once you experience the convenience of scan-to-identify, you'll want to label everything.
+        </p>
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-16 bg-gradient-to-br from-primary-50 to-accent-50/30 rounded-2xl p-8 text-center">
+        <h3 class="text-xl font-bold text-slate-900">Generate QR labels in seconds</h3>
+        <p class="mt-2 text-slate-600 max-w-md mx-auto">SpoolTags generates printable QR label sheets automatically. Scan any label to instantly view and update your spool.</p>
+        <a href="/#download" class="btn-primary mt-6 inline-flex">Download SpoolTags</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 py-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-2">
+          <img src="/images/logo.svg" alt="SpoolTags logo" class="w-8 h-8 rounded-lg">
+          <span class="font-bold text-lg text-white">SpoolTags</span>
+        </div>
+
+        <div class="flex items-center gap-6 text-sm">
+          <a href="/blog/" class="text-slate-400 hover:text-white transition-colors">Blog</a>
+          <a href="/privacy/" class="text-slate-400 hover:text-white transition-colors">Privacy Policy</a>
+          <a href="#" class="text-slate-400 hover:text-white transition-colors">Support</a>
+          <a href="mailto:info@spooltags.app" class="text-slate-400 hover:text-white transition-colors">Contact</a>
+        </div>
+      </div>
+
+      <div class="mt-8 pt-8 border-t border-slate-800 text-center">
+        <p class="text-slate-500 text-sm">&copy; 2026 SpoolTags. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

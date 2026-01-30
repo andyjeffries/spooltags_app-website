@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Ways to Track 3D Printer Filament Usage - SpoolTags</title>
+  <meta name="description" content="Compare different methods for tracking how much filament is left on your spools, from spreadsheets to smart scales to dedicated apps.">
+  <meta name="keywords" content="filament tracking, 3D printer filament usage, spool tracking, filament inventory, filament weight tracking">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Best Ways to Track 3D Printer Filament Usage">
+  <meta property="og:description" content="Compare different methods for tracking how much filament is left on your spools.">
+  <meta property="og:type" content="article">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link href="/output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-lg border-b border-slate-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="/" class="flex items-center gap-2">
+          <img src="/images/logo.svg" alt="SpoolTags logo" class="w-8 h-8 rounded-lg">
+          <span class="font-bold text-xl text-slate-900">SpoolTags</span>
+        </a>
+        <div class="hidden sm:flex items-center gap-8">
+          <a href="/#features" class="text-sm font-medium text-slate-600 hover:text-primary-600 transition-colors">Features</a>
+          <a href="/#how-it-works" class="text-sm font-medium text-slate-600 hover:text-primary-600 transition-colors">How It Works</a>
+          <a href="/#pricing" class="text-sm font-medium text-slate-600 hover:text-primary-600 transition-colors">Pricing</a>
+          <a href="/blog/" class="text-sm font-medium text-slate-600 hover:text-primary-600 transition-colors">Blog</a>
+          <a href="/#download" class="btn-primary text-sm !px-4 !py-2">Download</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Article -->
+  <article class="pt-32 pb-20">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Header -->
+      <header class="mb-12">
+        <a href="/blog/" class="inline-flex items-center text-sm text-primary-600 hover:text-primary-700 mb-6">
+          <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+          </svg>
+          Back to Blog
+        </a>
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight">Best Ways to Track 3D Printer Filament Usage</h1>
+        <div class="flex items-center gap-2 text-sm text-slate-500 mt-4">
+          <span>Guide</span>
+          <span>&middot;</span>
+          <span>6 min read</span>
+        </div>
+      </header>
+
+      <!-- Content -->
+      <div class="prose prose-slate prose-lg max-w-none">
+        <p class="lead">
+          Nothing ruins a 3D print like running out of filament halfway through. Yet most of us have no real idea how much material is left on any given spool. Here's a look at the different ways to track filament usage, from simple to sophisticated.
+        </p>
+
+        <h2>Method 1: Don't Track (The "Eyeball" Approach)</h2>
+
+        <p>
+          Let's be honest—this is what most people do. Look at the spool, make a guess, hope for the best.
+        </p>
+
+        <p>
+          <strong>Pros:</strong> Zero effort<br>
+          <strong>Cons:</strong> You will eventually run out mid-print. Probably on that 18-hour print you really cared about.
+        </p>
+
+        <p>
+          The visual approach is particularly unreliable because spool geometry is deceptive. A spool that looks half-full often has far less than 50% remaining—the inner layers hold less material than the outer ones.
+        </p>
+
+        <h2>Method 2: Slicer Estimates</h2>
+
+        <p>
+          Every slicer tells you how much filament a print will use. In theory, you could start with a full 1kg spool and subtract each print's usage.
+        </p>
+
+        <p>
+          <strong>Pros:</strong> The data is already there in your slicer<br>
+          <strong>Cons:</strong> Slicer estimates aren't exact. Over time, small errors compound. Purge lines, failed prints, and filament changes aren't accounted for.
+        </p>
+
+        <p>
+          This method drifts from reality within a few prints. You might think you have 200g left when it's actually 150g.
+        </p>
+
+        <h2>Method 3: Spreadsheet Tracking</h2>
+
+        <p>
+          Create a spreadsheet with columns for each spool: brand, color, material, starting weight, current weight. Update it after prints.
+        </p>
+
+        <p>
+          <strong>Pros:</strong> Flexible, free, works exactly how you want<br>
+          <strong>Cons:</strong> Requires discipline. Spreadsheets on your computer aren't accessible when you're at the printer. Easy to forget to update.
+        </p>
+
+        <p>
+          This works well for methodical people who already track things in spreadsheets. For everyone else, the spreadsheet gets neglected within a few weeks.
+        </p>
+
+        <h2>Method 4: Weight-Based Tracking with a Scale</h2>
+
+        <p>
+          This is the most accurate approach: weigh your spool periodically and record the weight. A simple kitchen scale accurate to 1g is all you need.
+        </p>
+
+        <p>
+          <strong>Pros:</strong> Accurate, accounts for waste and failed prints<br>
+          <strong>Cons:</strong> You need to actually weigh the spool and record it somewhere
+        </p>
+
+        <p>
+          The challenge is making the "record it somewhere" part fast enough that you'll do it. If updating your tracking system takes more than a few seconds, you'll skip it.
+        </p>
+
+        <h2>Method 5: Smart Filament Scales</h2>
+
+        <p>
+          Several companies sell scales that sit under your spool holder and connect to software to automatically track filament usage.
+        </p>
+
+        <p>
+          <strong>Pros:</strong> Automated tracking while printing<br>
+          <strong>Cons:</strong> Cost ($30-100+ per scale), only tracks the spool currently on the printer, requires software setup
+        </p>
+
+        <p>
+          Smart scales work well if you have one printer and mostly print from one spool at a time. For multiple printers or frequent spool changes, you'd need multiple scales and the logistics get complicated.
+        </p>
+
+        <h2>Method 6: Printer Integration</h2>
+
+        <p>
+          Some modern printers (like Bambu Lab machines with AMS) track filament usage internally. The printer knows what material is loaded and estimates remaining filament.
+        </p>
+
+        <p>
+          <strong>Pros:</strong> Automatic, integrated into your workflow<br>
+          <strong>Cons:</strong> Only works with specific printer ecosystems, estimates can drift, doesn't help with spools in storage
+        </p>
+
+        <p>
+          This is great for the spools actively loaded in your printer but doesn't solve the larger problem of tracking your full filament inventory.
+        </p>
+
+        <h2>Method 7: Dedicated Filament Tracking Apps</h2>
+
+        <p>
+          Apps specifically designed for filament inventory solve many of the pain points above. The best ones combine:
+        </p>
+
+        <ul>
+          <li><strong>Quick identification</strong> &mdash; Scan a QR code or NFC tag to pull up a spool instantly</li>
+          <li><strong>Weight tracking</strong> &mdash; Log weights quickly without hunting through menus</li>
+          <li><strong>Mobile access</strong> &mdash; Update from your phone while standing at the printer</li>
+          <li><strong>Sync across devices</strong> &mdash; Data available everywhere you need it</li>
+        </ul>
+
+        <p>
+          <strong>Pros:</strong> Purpose-built for the task, minimal friction<br>
+          <strong>Cons:</strong> Another app to install, may have cost depending on the app
+        </p>
+
+        <h2>What Actually Works</h2>
+
+        <p>
+          After experimenting with most of these methods, here's what I've found:
+        </p>
+
+        <p>
+          <strong>Accuracy comes from weighing.</strong> Slicer estimates and guessing don't cut it. If you care about knowing how much filament you have, you need to weigh your spools.
+        </p>
+
+        <p>
+          <strong>Speed determines whether you'll do it.</strong> The best tracking system is one you'll actually use. If it takes more than 10 seconds to update a spool's weight, it won't happen consistently.
+        </p>
+
+        <p>
+          <strong>Identification matters at scale.</strong> With 5 spools, you can remember which is which. With 50, you need labels or tags. QR codes and NFC tags let you scan a spool and immediately see its details without searching through a list.
+        </p>
+
+        <h2>A Practical System</h2>
+
+        <p>
+          Based on the above, here's what works:
+        </p>
+
+        <ol class="space-y-2 my-6">
+          <li><strong>Label every spool</strong> with a QR code or NFC tag when you add it to your collection</li>
+          <li><strong>Record the starting weight</strong> (full spool) and empty spool weight for that brand</li>
+          <li><strong>Weigh and update</strong> after prints, especially for spools that are getting low</li>
+          <li><strong>Set low-stock alerts</strong> so you know when to reorder</li>
+        </ol>
+
+        <p>
+          The key insight: make the update process fast. Scan a code, enter a number, done. That's achievable with a phone app. It's not achievable with a spreadsheet on your desktop computer.
+        </p>
+
+        <p>
+          Your future self—the one staring at a failed print because the filament ran out—will thank you for setting up tracking now.
+        </p>
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-16 bg-gradient-to-br from-primary-50 to-accent-50/30 rounded-2xl p-8 text-center">
+        <h3 class="text-xl font-bold text-slate-900">Track your filament the easy way</h3>
+        <p class="mt-2 text-slate-600 max-w-md mx-auto">SpoolTags lets you scan QR codes or tap NFC tags to instantly track any spool. Free for up to 10 spools.</p>
+        <a href="/#download" class="btn-primary mt-6 inline-flex">Download SpoolTags</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 py-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-2">
+          <img src="/images/logo.svg" alt="SpoolTags logo" class="w-8 h-8 rounded-lg">
+          <span class="font-bold text-lg text-white">SpoolTags</span>
+        </div>
+
+        <div class="flex items-center gap-6 text-sm">
+          <a href="/blog/" class="text-slate-400 hover:text-white transition-colors">Blog</a>
+          <a href="/privacy/" class="text-slate-400 hover:text-white transition-colors">Privacy Policy</a>
+          <a href="#" class="text-slate-400 hover:text-white transition-colors">Support</a>
+          <a href="mailto:info@spooltags.app" class="text-slate-400 hover:text-white transition-colors">Contact</a>
+        </div>
+      </div>
+
+      <div class="mt-8 pt-8 border-t border-slate-800 text-center">
+        <p class="text-slate-500 text-sm">&copy; 2026 SpoolTags. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
