@@ -4,8 +4,9 @@
   "description": "SpoolTags marketing website",
   "scripts": {
     "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "build:sitemap": "node scripts/generate-sitemap.js",
     "dev:css": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "build": "npm run build:css && rsync -a --exclude='input.css' --exclude='output.css' --exclude='.DS_Store' src/ dist/",
+    "build": "npm run build:css && rsync -a --exclude='input.css' --exclude='output.css' --exclude='.DS_Store' src/ dist/ && npm run build:sitemap",
     "dev": "echo 'Run in two terminals: npm run dev:css AND npx live-server src'"
   },
   "devDependencies": {

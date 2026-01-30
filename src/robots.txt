@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://spooltags.app/sitemap.xml
